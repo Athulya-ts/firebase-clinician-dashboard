@@ -1,0 +1,86 @@
+/* auth.css */
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.containerr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.login-box, .signup-box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 40px); /* Width of the container - 2 times padding */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.btnn {
+    width: calc(100% - 20px);
+    margin-top: 20px; /* Adjust the margin top to match the input fields */
+}
+
+.btnn-google {
+    background-color: #DB4437;
+    color: #fff;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; /* Adjust the margin top to match the input fields */
+}
+
+.btnn-google:hover {
+    background-color: #c1351a;
+}
+.log-signup{
+    color: #807f7f;
+    font-weight: 100;
+    font-size:medium;
+    margin-top: 20px;
+}
+.separator {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.line {
+    width: calc(50% - 50px); /* Width of the container - 2 times padding - Or text width */
+    display: inline-block;
+    vertical-align: middle; /* Align the line vertically */
+    border-top: 1px solid #ccc;
+}
+
+.or {
+    display: inline-block;
+    color: #aaa;
+    margin: 0 10px;
+    vertical-align: middle; /* Align the text vertically */
+}
